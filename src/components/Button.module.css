@@ -1,0 +1,18 @@
+.button {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #222;
+
+  padding: 1rem 1.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  background: #eee;
+
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button:hover {
+  transform: scale(1.04);
+}

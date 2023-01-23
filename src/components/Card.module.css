@@ -1,0 +1,26 @@
+.card {
+  padding: 1rem 0.4rem;
+  border: 1px solid #bbb;
+  border-radius: 0.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card:hover {
+  background: #ddd;
+}
+
+.card a {
+  color: #222;
+}
+
+.card p {
+  font-size: 0.9rem;
+}

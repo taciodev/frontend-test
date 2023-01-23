@@ -1,0 +1,35 @@
+.input {
+  font-size: 0.9rem;
+
+  padding: 0.5rem 0.8rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  border: 1px solid #eee;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 1px #bbb;
+}
+
+.label {
+  margin: 0 0.5rem;
+}
+
+.containerUser {
+  text-align: center;
+}
+
+.containerUser p {
+  padding: 0.4rem 0;
+  margin: 1rem 0;
+  border: 1px solid #222;
+  border-radius: 0.4rem;
+}
+
+.containerUser p span {
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin-right: 0.4rem;
+}
